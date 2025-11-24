@@ -2,8 +2,11 @@ server:
   port: 8080
 
 spring:
+  application:
+    name: advisor-base
   ai:
     dashscope:
+#      base-url: https://dashscope.aliyuncs.com/compatible-mode
       api-key: ${DASHSCOPE_API_KEY}
       chat:
         options:
